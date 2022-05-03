@@ -42,7 +42,7 @@ class Calculator {
                 case '-':
                  currentOperandText.innerText = parseFloat(previousOperandText.innerText.split(' ')[0]) - parseFloat(currentOperandText.innerText); break
                  case '/':
-                    currentOperandText.innerText = parseFloat(previousOperandText.innerText.split(' ')[0]) + parseFloat(currentOperandText.innerText); break
+                    currentOperandText.innerText = parseFloat(previousOperandText.innerText.split(' ')[0]) / parseFloat(currentOperandText.innerText); break
                     case '*':
                         currentOperandText.innerText = parseFloat(previousOperandText.innerText.split(' ')[0]) * parseFloat(currentOperandText.innerText); break
         }
